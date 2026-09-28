@@ -1,5 +1,5 @@
 {
-  "name": "scenario-b-poisoned",
+  "name": "scenario-b-warn",
   "version": "1.0.0",
   "description": "Scenario B: WARN path - lodash@4.17.4 CVE-2019-10744",
   "main": "index.js",

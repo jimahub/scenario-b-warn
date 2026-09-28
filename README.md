@@ -1,4 +1,4 @@
-# scenario-b-poisoned
+# scenario-b-warn
 
 Scenario B：WARN 路徑（lodash@4.17.4）
 
@@ -6,5 +6,7 @@ Scenario B：WARN 路徑（lodash@4.17.4）
 
 - 管線：`.github/workflows/devsecops.yml`（簽章端／驗證端兩個 job，先驗證後掃描，鎖定簽章身分）
 - 只接受手動觸發（Actions → Run workflow），於正式實驗凍結工具版本後執行
+
+情境 B 模擬「引入含已知漏洞的合法舊版套件」，不是依賴投毒（惡意套件）；2026-09-28 由 scenario-b-poisoned 改名。
 
 本 repository 刻意包含含已知漏洞的舊版套件，僅供研究用途，請勿用於正式環境。
