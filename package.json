@@ -1,0 +1,13 @@
+{
+  "name": "scenario-b-poisoned",
+  "version": "1.0.0",
+  "description": "Scenario B: WARN path - lodash@4.17.4 CVE-2019-10744",
+  "main": "index.js",
+  "dependencies": {
+    "express": "4.18.2",
+    "lodash": "4.17.4",
+    "axios": "1.6.0",
+    "dotenv": "16.0.0",
+    "cors": "2.8.5"
+  }
+}
